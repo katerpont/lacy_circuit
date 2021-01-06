@@ -115,15 +115,3 @@ plt.scatter(xfnlist, YNEW1, s=1, marker= ',')
 axis = [xmin, xmax, ymin, ymax]
 plt.axis(axis)
 plt.show()
-
-
-num=7
-for i in range(2,num):
-    if num%i==0:
-        print('oxi')
-        break
-else:
-    print('nai')
-    
-
-
